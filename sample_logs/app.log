@@ -1,0 +1,15 @@
+2026-07-24 09:12:01 INFO app.startup: Application started on port 8080
+2026-07-24 09:14:22 WARNING db.pool: Connection pool at 80% capacity
+2026-07-24 09:15:03 ERROR db.connection: Connection refused to host 10.0.0.5:5432
+2026-07-24 09:15:04 ERROR db.connection: Connection refused to host 10.0.0.5:5432
+2026-07-24 09:15:47 ERROR db.connection: Connection timed out to host 10.0.0.5:5432
+2026-07-24 09:16:10 INFO app.request: GET /health 200 OK
+2026-07-24 09:17:33 ERROR auth.token: Token validation failed: signature mismatch
+2026-07-24 09:17:35 ERROR auth.token: Token validation failed: signature mismatch
+2026-07-24 09:18:02 CRITICAL app.worker: Worker process crashed with exit code 1
+2026-07-24 09:18:03 INFO app.worker: Restarting worker process
+Traceback (most recent call last):
+  File "worker.py", line 42, in run
+    process_job(job)
+ValueError: invalid job payload
+2026-07-24 09:19:00 INFO app.request: GET /health 200 OK
