@@ -1,0 +1,8 @@
+# LLM plumbing
+langchain-core>=0.3
+langchain-openai
+langchain-anthropic
+
+# Dev / test
+pytest
+python-dotenv
